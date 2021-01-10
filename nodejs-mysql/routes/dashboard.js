@@ -2,7 +2,6 @@
 const express = require('express');
 const router = express.Router();
 const mysql = require('mysql');
-
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -12,10 +11,6 @@ const con = mysql.createConnection({
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
-    con.query("CREATE DATABASE mydb", function(err, result) {
-        if (err) throw err;
-        console.log("Database created");
-    });
 });
 
 router.get('/display', async function(req, res) {

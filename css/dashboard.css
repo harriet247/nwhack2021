@@ -1,0 +1,1253 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,400|Quicksand:500");
+* {
+  box-sizing: border-box;
+}
+.border-class-2 {
+  border: 1px solid rgba(227, 229, 229, 1);
+}
+.dashboard {
+  align-items: flex-start;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 1920px;
+}
+.dashboard .auto-flex {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 136px;
+  justify-content: flex-start;
+  margin-right: 27.64px;
+  margin-top: 24px;
+  min-width: 1589px;
+  width: auto;
+}
+.dashboard .auto-flex1 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 43px;
+  justify-content: flex-start;
+  margin-right: 27.38px;
+  min-width: 1590px;
+  width: auto;
+}
+.dashboard .button-bg {
+  background-color: transparent;
+  height: 59px;
+  left: 1377px;
+  position: absolute;
+  top: 28px;
+  width: 157px;
+}
+.dashboard .caption {
+  background-color: transparent;
+  height: 19px;
+  left: 0px;
+  letter-spacing: 0.1px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 4px;
+  white-space: nowrap;
+  width: 187px;
+}
+.dashboard .center2 {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 995px;
+  justify-content: flex-start;
+  margin-left: -155px;
+  margin-top: 58px;
+  padding: 40px 82.9px;
+  width: 2039px;
+}
+.dashboard .comments {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  min-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  width: 336px;
+}
+.dashboard .content {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 240px;
+  width: 572px;
+}
+.dashboard .content-1 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 240px;
+  width: 206px;
+}
+.dashboard .content-10 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 206px;
+}
+.dashboard .content-11 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 64px;
+  width: 206px;
+}
+.dashboard .content-12 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 206px;
+}
+.dashboard .content-13 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  width: 572px;
+}
+.dashboard .content-14 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 112px;
+  width: 572px;
+}
+.dashboard .content-15 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  width: 572px;
+}
+.dashboard .content-16 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 448px;
+  width: 572px;
+}
+.dashboard .content-17 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 384px;
+  width: 572px;
+}
+.dashboard .content-18 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 320px;
+  width: 572px;
+}
+.dashboard .content-19 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 256px;
+  width: 572px;
+}
+.dashboard .content-2 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 176px;
+  width: 206px;
+}
+.dashboard .content-20 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 192px;
+  width: 572px;
+}
+.dashboard .content-21 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  width: 572px;
+}
+.dashboard .content-22 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 64px;
+  width: 572px;
+}
+.dashboard .content-23 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 572px;
+}
+.dashboard .content-24 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 16px;
+  margin-right: 2.87px;
+  margin-top: 23px;
+  width: 22px;
+}
+.dashboard .content-25 {
+  background-color: transparent;
+  color: var(--chateau-green);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 64px;
+  width: 206px;
+}
+.dashboard .content-26 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  width: 206px;
+}
+.dashboard .content-3 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 112px;
+  width: 206px;
+}
+.dashboard .content-4 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  top: 48px;
+  width: 206px;
+}
+.dashboard .content-5 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 448px;
+  width: 206px;
+}
+.dashboard .content-6 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 384px;
+  width: 206px;
+}
+.dashboard .content-7 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 320px;
+  width: 206px;
+}
+.dashboard .content-8 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 256px;
+  width: 206px;
+}
+.dashboard .content-9 {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 192px;
+  width: 206px;
+}
+.dashboard .dashboard-card {
+  align-items: flex-end;
+  background-color: var(--black-haze);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 136px;
+  padding: 16px 14.3px;
+  width: 366px;
+}
+.dashboard .dashboard-card-1 {
+  align-items: flex-end;
+  background-color: var(--black-haze);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 41px;
+  min-height: 136px;
+  padding: 16px 14.3px;
+  width: 366px;
+}
+.dashboard .down {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 6px;
+  margin-left: 0.01px;
+  margin-top: 4px;
+  width: 10px;
+}
+.dashboard .fernando-pidrilio {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 90px;
+  margin-bottom: -38px;
+  margin-left: 28px;
+  width: 90px;
+}
+.dashboard .finished {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  min-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  width: 336px;
+}
+.dashboard .h4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 43px;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  min-height: 43px;
+  text-align: left;
+  width: 1184px;
+}
+.dashboard .header {
+  background-color: transparent;
+  height: 48px;
+  left: 0px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  width: 206px;
+}
+.dashboard .likes {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  min-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  width: 336px;
+}
+.dashboard .line {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 240px;
+  width: 571px;
+}
+.dashboard .line-1 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 240px;
+  width: 205px;
+}
+.dashboard .line-10 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 192px;
+  width: 205px;
+}
+.dashboard .line-11 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 128px;
+  width: 205px;
+}
+.dashboard .line-12 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 64px;
+  width: 205px;
+}
+.dashboard .line-13 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 176px;
+  width: 571px;
+}
+.dashboard .line-14 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 112px;
+  width: 571px;
+}
+.dashboard .line-15 {
+  background-color: transparent;
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 571px;
+}
+.dashboard .line-16 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 512px;
+  width: 571px;
+}
+.dashboard .line-17 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 448px;
+  width: 571px;
+}
+.dashboard .line-18 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 384px;
+  width: 571px;
+}
+.dashboard .line-19 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 320px;
+  width: 571px;
+}
+.dashboard .line-2 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 176px;
+  width: 205px;
+}
+.dashboard .line-20 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 256px;
+  width: 571px;
+}
+.dashboard .line-21 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 192px;
+  width: 571px;
+}
+.dashboard .line-22 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 128px;
+  width: 571px;
+}
+.dashboard .line-23 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 64px;
+  width: 571px;
+}
+.dashboard .line-24 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 205px;
+}
+.dashboard .line-3 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 112px;
+  width: 205px;
+}
+.dashboard .line-4 {
+  background-color: transparent;
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 205px;
+}
+.dashboard .line-5 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 512px;
+  width: 205px;
+}
+.dashboard .line-6 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 448px;
+  width: 205px;
+}
+.dashboard .line-7 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 384px;
+  width: 205px;
+}
+.dashboard .line-8 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 320px;
+  width: 205px;
+}
+.dashboard .line-9 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 256px;
+  width: 205px;
+}
+.dashboard .logo-bg {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgba(7, 35, 47, 0.24), 0px 2px 6px rgba(7, 35, 47, 0.16);
+  flex-shrink: 0;
+  height: 90px;
+  width: 90px;
+}
+.dashboard .logo-dashboard {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 90px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 457px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.dashboard .logorialto-1 {
+  background-color: transparent;
+  height: 56px;
+  left: 4px;
+  position: absolute;
+  top: 17px;
+  width: 82px;
+}
+.dashboard .name {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 90px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  margin-left: 22px;
+  min-height: 90px;
+  text-align: left;
+  width: 344px;
+}
+.dashboard .name-1 {
+  background-color: transparent;
+  height: 76px;
+  left: 1396px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 19px;
+  width: 130px;
+}
+.dashboard .overlap-group {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 95px;
+  position: relative;
+  width: 1920px;
+}
+.dashboard .overlap-group {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 304px;
+  margin-left: -0.5px;
+  position: relative;
+  width: 206px;
+}
+.dashboard .overlap-group-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 512px;
+  margin-left: -0.5px;
+  margin-top: 0px;
+  position: relative;
+  width: 206px;
+}
+.dashboard .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 90px;
+  margin-bottom: -38px;
+  position: relative;
+  width: 457px;
+}
+.dashboard .overlap-group1-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 304px;
+  margin-top: 32px;
+  position: relative;
+  width: 1645px;
+}
+.dashboard .overlap-group2 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 59px;
+  justify-content: flex-end;
+  margin-bottom: -23px;
+  margin-left: 1074px;
+  min-width: 233px;
+  padding: 10px 16px;
+  width: auto;
+}
+.dashboard .overlap-group2-1 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 48px;
+  padding: 16px 2.6px;
+  width: 16px;
+}
+.dashboard .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  position: relative;
+  width: 203px;
+}
+.dashboard .overlap-group3-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 512px;
+  margin-left: -0.5px;
+  margin-top: 0px;
+  position: relative;
+  width: 572px;
+}
+.dashboard .overlap-group4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 304px;
+  margin-left: -0.5px;
+  position: relative;
+  width: 572px;
+}
+.dashboard .overlap-group7 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 512px;
+  margin-right: 1.37px;
+  margin-top: 0px;
+  position: relative;
+  width: 206px;
+}
+.dashboard .overlap-group8 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 128px;
+  margin-right: 1.37px;
+  margin-top: 23px;
+  position: relative;
+  width: 206px;
+}
+.dashboard .overlap-group9 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 112px;
+  margin-right: 1.37px;
+  position: relative;
+  width: 206px;
+}
+.dashboard .register {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 38px;
+  letter-spacing: 0.75px;
+  line-height: normal;
+  min-height: 38px;
+  text-align: center;
+  width: 198px;
+}
+.dashboard .row-bg {
+  background-color: var(--black-haze);
+  border-radius: 10px;
+  height: 65px;
+  left: 0px;
+  position: absolute;
+  top: 175px;
+  width: 1645px;
+}
+.dashboard .sort-l {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 142px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.dashboard .span1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+}
+.dashboard .span2-1 {
+  color: rgba(53, 122, 245, 1);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.dashboard .span2-CbFnTU {
+  color: rgba(6, 149, 151, 1);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.dashboard .span2-utrrxt {
+  color: rgba(242, 169, 24, 1);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.dashboard .span3 {
+  color: rgba(93, 99, 102, 1);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.dashboard .status {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 24px;
+  letter-spacing: 0.44px;
+  line-height: 24px;
+  margin-left: 8px;
+  min-height: 24px;
+  min-width: 117px;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.dashboard .table-64dp {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  justify-content: flex-start;
+  left: 28px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 573px;
+}
+.dashboard .table-64dp-1 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  justify-content: flex-start;
+  left: 802px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 207px;
+}
+.dashboard .table-64dp-2 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  justify-content: flex-start;
+  left: 598px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 207px;
+}
+.dashboard .table-64dp-3 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  justify-content: flex-start;
+  left: 1006px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 207px;
+}
+.dashboard .table-64dp-4 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  justify-content: flex-start;
+  left: 1209px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 207px;
+}
+.dashboard .table-64dp-5 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 304px;
+  justify-content: flex-start;
+  left: 1413px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 207px;
+}
+.dashboard .title {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 28px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  min-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  width: 336px;
+}
+.dashboard .up {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 6px;
+  width: 10px;
+}
+.dashboard .value {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 76px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 0px;
+  min-height: 76px;
+  text-align: left;
+  width: 336px;
+}
+.dashboard .value-1 {
+  background-color: transparent;
+  color: var(--blue);
+  flex-shrink: 0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  height: 76px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 0px;
+  min-height: 76px;
+  text-align: left;
+  width: 336px;
+}
+.dashboard .value-2 {
+  background-color: transparent;
+  color: var(--chateau-green);
+  flex-shrink: 0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  height: 76px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 0px;
+  min-height: 76px;
+  text-align: left;
+  width: 336px;
+}
+.dashboard .value-3 {
+  background-color: transparent;
+  color: var(--buttercup);
+  flex-shrink: 0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  height: 76px;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-top: 0px;
+  min-height: 76px;
+  text-align: left;
+  width: 336px;
+}
+.dashboard .vector {
+  background-color: transparent;
+  height: 8px;
+  left: 182px;
+  position: absolute;
+  top: 10px;
+  width: 13px;
+}
+.dashboard .x {
+  background-color: transparent;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 570px;
+}
+.dashboard .x-1 {
+  background-color: transparent;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 204px;
+}
+.dashboard .x-2 {
+  background-color: transparent;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 204px;
+}
+.dashboard .x-3 {
+  background-color: transparent;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 204px;
+}
+.dashboard .x-4 {
+  background-color: transparent;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 204px;
+}
+.dashboard .x-5 {
+  background-color: transparent;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 204px;
+}
+.dashboard .x-appbar {
+  align-items: flex-end;
+  background-color: white;
+  display: inline-flex;
+  flex-direction: row;
+  height: 64px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 1920px;
+  padding: 0 16px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.dashboard .x-past-month {
+  align-items: center;
+  background-color: var(--black-haze);
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 32px;
+  justify-content: flex-end;
+  margin-left: 177px;
+  min-width: 228px;
+  padding: 0 4.1px;
+  width: auto;
+}
+.quicksand-medium-black-20px {
+  color: var(--black);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-black-34px {
+  color: var(--black);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-blue-36px {
+  color: var(--blue);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-mountain-mist-16px {
+  color: var(--mountain-mist);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-storm-dust-36px {
+  color: var(--storm-dust-2);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-medium-cinnabar-48px {
+  color: var(--cinnabar);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-medium-storm-dust-14px {
+  color: var(--storm-dust);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-medium-storm-dust-20px {
+  color: var(--storm-dust);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-black-16px {
+  color: var(--black);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-white-20px {
+  color: transparent;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 20px;
+}
+:root {
+  --black: rgba(0, 0, 0, 0.87);
+  --black-haze: rgba(246, 248, 249, 1);
+  --blue: rgba(53, 122, 245, 1);
+  --buttercup: rgba(242, 169, 24, 1);
+  --chateau-green: rgba(47, 168, 79, 1);
+  --cinnabar: rgba(234, 61, 46, 1);
+  --mountain-mist: rgba(145, 150, 153, 1);
+  --storm-dust: rgba(93, 99, 102, 1);
+  --storm-dust-2: rgba(93, 99, 102, 0.85);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

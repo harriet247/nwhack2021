@@ -1,0 +1,244 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500");
+* {
+  box-sizing: border-box;
+}
+.quicksand-medium-black-72px {
+  color: var(--black);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-blue-36px {
+  color: var(--blue);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-storm-dust-24px {
+  color: var(--storm-dust);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quicksand-medium-storm-dust-36px {
+  color: var(--storm-dust);
+  font-family: "Quicksand", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+.welcome {
+  align-items: flex-end;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 1920px;
+}
+.welcome .arrow-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 8px;
+  margin-right: 145.48px;
+  margin-top: 87px;
+  width: 48px;
+}
+.welcome .button-bg {
+  background-color: transparent;
+  height: 59px;
+  left: 1370px;
+  position: absolute;
+  top: 28px;
+  width: 157px;
+}
+.welcome .fernando-pidrilio {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 90px;
+  margin-bottom: -38px;
+  margin-left: 28px;
+  width: 90px;
+}
+.welcome .h4 {
+  background-color: transparent;
+  height: 90px;
+  left: 247px;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+.welcome .logo-bg {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgba(7, 35, 47, 0.24), 0px 2px 6px rgba(7, 35, 47, 0.16);
+  flex-shrink: 0;
+  height: 90px;
+  width: 90px;
+}
+.welcome .logo-dashboard {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  height: 90px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 457px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+.welcome .logorialto-1 {
+  background-color: transparent;
+  height: 56px;
+  left: 4px;
+  position: absolute;
+  top: 17px;
+  width: 82px;
+}
+.welcome .name {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 90px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  margin-left: 22px;
+  min-height: 90px;
+  text-align: left;
+  width: 344px;
+}
+.welcome .name-1 {
+  background-color: transparent;
+  height: 76px;
+  left: 1389px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 19px;
+  width: 130px;
+}
+.welcome .name-2 {
+  background-color: transparent;
+  height: 40px;
+  left: 1703px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 154px;
+}
+.welcome .overlap-group {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 95px;
+  position: relative;
+  width: 1920px;
+}
+.welcome .overlap-group1 {
+  background-color: transparent;
+  height: 769px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  width: 1938px;
+}
+.welcome .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 90px;
+  margin-bottom: -38px;
+  position: relative;
+  width: 457px;
+}
+.welcome .overlap-group3 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 59px;
+  justify-content: flex-end;
+  margin-bottom: -23px;
+  margin-left: 1074px;
+  min-width: 233px;
+  padding: 10px 16px;
+  width: auto;
+}
+.welcome .overlap-group4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 789px;
+  margin-top: 31px;
+  position: relative;
+  width: 1938px;
+}
+.welcome .rectangle-1 {
+  background-color: transparent;
+  height: 699px;
+  left: 18px;
+  position: absolute;
+  top: 70px;
+  width: 1920px;
+}
+.welcome .rectangle-2 {
+  background-color: black;
+  height: 12px;
+  left: 191px;
+  position: absolute;
+  top: 127px;
+  width: 1050px;
+}
+.welcome .rectangle-3 {
+  background-color: black;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 583px;
+  width: 1938px;
+}
+.welcome .register {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 38px;
+  letter-spacing: 0.75px;
+  line-height: normal;
+  min-height: 38px;
+  text-align: center;
+  width: 198px;
+}
+.welcome .x-appbar {
+  align-items: flex-end;
+  background-color: white;
+  display: inline-flex;
+  flex-direction: row;
+  height: 64px;
+  justify-content: flex-start;
+  left: 0px;
+  min-width: 1920px;
+  padding: 0 16px;
+  position: absolute;
+  top: 0px;
+  width: auto;
+}
+:root {
+  --black: rgba(0, 0, 0, 0.87);
+  --blue: rgba(53, 122, 245, 1);
+  --storm-dust: rgba(93, 99, 102, 0.85);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

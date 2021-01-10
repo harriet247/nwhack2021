@@ -1,0 +1,22 @@
+{
+  "name": "nwhack2021",
+  "version": "1.0.0",
+  "description": "<b style=\"text-align: center;\"> nwHack2021 </b>\r <br />\r <br />\r <a href=\"#\"><img src=\"./src/click.png\" alt=\"drawing\" height= \"50\" width=\"50\" style=\"pointer-events: none !important;\"/></a>\r <br />\r <p style=\"text-align: center;\"> We are team:</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cindywe/nwhack2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cindywe/nwhack2021/issues"
+  },
+  "homepage": "https://github.com/cindywe/nwhack2021#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.7.1"
+  }
+}
